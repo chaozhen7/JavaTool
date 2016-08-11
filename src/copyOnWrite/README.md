@@ -1,0 +1,2 @@
+copyOnWriteMap
+模仿copyOnWriteList实现线程安全的copyOnWriteMap数据结构，主要使用在读多写少的情况下，数据实时性要求不高，内存使用充足
