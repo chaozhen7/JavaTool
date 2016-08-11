@@ -1,1 +1,1 @@
-利用LinkedHashMap的特性实现LRUCache缓存，主要是重写了removeEldestEntry方法
+利用LinkedHashMap的特性实现LRUCache缓存，主要是重写了removeEldestEntry方法，另外注意在初始化LinkedHashMap时要将accessorder 设置为true，表示访问过也是修改
